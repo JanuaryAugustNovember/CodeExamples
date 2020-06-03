@@ -1,0 +1,13 @@
+<h1>Utility for Decrypting text</h1>
+
+<p>Enter text</p>
+
+<div>
+  <p> <input type="text" [(ngModel)]='inputText'/></p>
+  <button (click)="decryptText()">Decrypt</button>
+  <button (click)="clear()">Clear</button>
+</div>
+
+<div *ngIf="isSuccessful">
+  <h3>{{ decryptedText }}</h3>
+</div>

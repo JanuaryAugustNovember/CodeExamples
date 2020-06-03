@@ -1,0 +1,175 @@
+li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Highlighting rules for nav menu items */
+li.link-active a,
+li.link-active a:hover,
+li.link-active a:focus {
+    background-color: #4189C7;
+    color: white;
+}
+
+/* Keep the nav menu independent of scrolling and on top of other items */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    /* On small screens, convert the nav menu to a vertical sidebar */
+    .main-nav {
+        height: 100%;
+        width: calc(25% - 20px);
+    }
+    .navbar {
+        border-radius: 0px;
+        border-width: 0px;
+        height: 100%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #444;
+        padding: 0px;
+    }
+    .navbar ul {
+        float: none;
+    }
+    .navbar li {
+        float: none;
+        font-size: 15px;
+        margin: 6px;
+    }
+    .navbar li a {
+        padding: 10px 16px;
+        border-radius: 4px;
+    }
+    .navbar a {
+        /* If a menu item's text is too long, truncate it */
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
+
+/* Red/Green Lights */
+
+.status-green {
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(9, 156, 107);
+  background-color: rgb(71, 220, 178);
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset -0.6px -1.9px 4px 0px rgba(21, 139, 100, 0.8);
+  -moz-box-shadow: inset -0.6px -1.9px 4px 0px rgba(21, 139, 100, 0.8);
+  box-shadow: inset -0.6px -1.9px 4px 0px rgba(21, 139, 100, 0.8);
+}
+
+.status-green-glow {
+  z-index: -1;
+  position: absolute;
+  background-color: #2f343a;
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(21, 139, 100, 0.7);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(21, 139, 100, 0.7);
+  box-shadow: 0px 0px 8px 1px rgba(21, 139, 100, 0.7);
+}
+
+.status-yellow {
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(156, 151, 9);
+  background-color: rgb(255, 225, 24);
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset -0.6px -1.9px 4px 0px rgba(139, 127, 21, 0.8);
+  -moz-box-shadow: inset -0.6px -1.9px 4px 0px rgba(139, 127, 21, 0.8);
+  box-shadow: inset -0.6px -1.9px 4px 0px rgba(139, 127, 21, 0.8);
+}
+
+.status-yellow-glow {
+  z-index: -1;
+  position: absolute;
+  background-color: #2f343a;
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(139, 127, 21, 0.7);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(139, 127, 21, 0.7);
+  box-shadow: 0px 0px 8px 1px rgba(139, 127, 21, 0.7);
+}
+
+.status-red {
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(156, 9, 9);
+  background-color: rgb(220, 24, 71);
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset -0.6px -1.9px 4px 0px rgba(139, 21, 21, 0.8);
+  -moz-box-shadow: inset -0.6px -1.9px 4px 0px rgba(139, 21, 21, 0.8);
+  box-shadow: inset -0.6px -1.9px 4px 0px rgba(139, 21, 21, 0.8);
+}
+
+.status-red-glow {
+  z-index: -1;
+  position: absolute;
+  background-color: #2f343a;
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(139, 21, 21, 0.7);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(139, 21, 21, 0.7);
+  box-shadow: 0px 0px 8px 1px rgba(139, 21, 21, 0.7);
+}
+

@@ -1,0 +1,72 @@
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<h1>Utility for getting connection strings</h1>
+
+<p>Enter database name</p>
+
+<div>
+  <p>
+    <input type="text" [(ngModel)]='searchText' #box (keyup.enter)="getConnections()" />
+  </p>
+  <button (click)="getConnections()">Search</button>
+  <!-- <button (keyup.enter)="getConnections()" style="display: none; visibility: hidden;"></button> -->
+  <button (click)="clear()">Clear</button>
+</div>
+
+<div *ngIf="isSuccessful && searchClicked">
+  <div *ngIf="hasResults">
+    <table>
+      <thead>
+        <tr>
+          <th>DealerDataSourceId</th>
+          <th>HostAddress</th>
+          <th>HostPort</th>
+          <th>Database</th>
+          <th>IsEnabled</th>
+          <th>DealerNumber</th>
+          <th>DealerEnvironmentId</th>
+          <th>Username</th>
+          <th>Password</th>
+          <th>DecryptedPassword</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let conn of connections">
+          <td>{{conn.dealerDataSourceId}}</td>
+          <td>{{conn.hostAddress}}</td>
+          <td>{{conn.hostPort}}</td>
+          <td>{{conn.database}}</td>
+          <td>{{conn.isEnabled}}</td>
+          <td>{{conn.dealerNumber}}</td>
+          <td>{{conn.dealerEnvironmentId}}</td>
+          <td>{{conn.username}}</td>
+          <td>{{conn.password}}</td>
+          <td>{{conn.decryptedPassword}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div *ngIf="!hasResults && !loadingResults">
+    <p> No Results for {{searchText}}</p>
+  </div>
+</div>
+
+<div *ngIf="!isSuccessful && searchClicked && !loadingResults">
+  <p> Did not successfully search connections</p>
+</div>
