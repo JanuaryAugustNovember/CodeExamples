@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="3.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DailyHelperApi.Domain\DailyHelperApi.Domain.csproj" />
+    <ProjectReference Include="..\DailyHelperApi.Repository\DailyHelperApi.Repository.csproj" />
+    <ProjectReference Include="..\DailyHerlperApi.Application\DailyHerlperApi.Application.csproj" />
+  </ItemGroup>
+
+
+</Project>

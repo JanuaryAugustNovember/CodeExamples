@@ -1,0 +1,7 @@
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\bin\Debug\netstandard2.0\DailyHelperApi.Repository.deps.json
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\bin\Debug\netstandard2.0\DailyHelperApi.Repository.dll
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\obj\Debug\netstandard2.0\DailyHelperApi.Repository.AssemblyInfoInputs.cache
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\obj\Debug\netstandard2.0\DailyHelperApi.Repository.AssemblyInfo.cs
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\obj\Debug\netstandard2.0\DailyHelperApi.Repository.csprojAssemblyReference.cache
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\bin\Debug\netstandard2.0\DailyHelperApi.Domain.dll
+C:\Projects\CodeExamples\DailyHelperApi\DailyHelperApi.Repository\obj\Debug\netstandard2.0\DailyHelperApi.Repository.csproj.CoreCompileInputs.cache

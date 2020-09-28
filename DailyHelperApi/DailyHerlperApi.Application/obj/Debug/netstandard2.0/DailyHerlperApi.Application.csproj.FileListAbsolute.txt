@@ -1,0 +1,10 @@
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\bin\Debug\netstandard2.0\DailyHerlperApi.Application.deps.json
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\bin\Debug\netstandard2.0\DailyHerlperApi.Application.dll
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\bin\Debug\netstandard2.0\DailyHerlperApi.Application.pdb
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\obj\Debug\netstandard2.0\DailyHerlperApi.Application.csprojAssemblyReference.cache
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\obj\Debug\netstandard2.0\DailyHerlperApi.Application.AssemblyInfoInputs.cache
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\obj\Debug\netstandard2.0\DailyHerlperApi.Application.AssemblyInfo.cs
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\obj\Debug\netstandard2.0\DailyHerlperApi.Application.csproj.CoreCompileInputs.cache
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\obj\Debug\netstandard2.0\DailyHerlperApi.Application.dll
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\obj\Debug\netstandard2.0\DailyHerlperApi.Application.pdb
+C:\Projects\CodeExamples\DailyHelperApi\DailyHerlperApi.Application\bin\Debug\netstandard2.0\DailyHelperApi.Domain.dll
